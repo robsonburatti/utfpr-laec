@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:include schemaLocation="myValidate.xsd"/>
+  <xsd:element name="dados_pessoais" type="dados_pessoaisType" />
+  <xsd:complexType name="dados_pessoaisType">
+    <xsd:sequence>
+      <xsd:element name="nome" type="xsd:string" />
+      <xsd:element name="endereco" type="enderecoType" />
+      <xsd:element name="telefone" type="telefoneType" />
+      <xsd:element name="contato" type="contatoType" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="contatoType">
+    <xsd:sequence>
+      <xsd:element name="email" type="xsd:string" />
+      <xsd:element name="facebook" type="xsd:string" />
+      <xsd:element name="skype" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="telefoneType">
+    <xsd:sequence>
+      <xsd:element name="residencial" type="xsd:string" />
+      <xsd:element name="comercial" type="xsd:string" />
+      <xsd:element name="celular" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="enderecoType">
+    <xsd:sequence>
+      <xsd:element name="rua" type="teste" />
+      <!-- <xsd:element name="rua" type="xsd:string" /> -->
+      <!--<xsd:element name="rua">
+          <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                  <xsd:minLength value="5" />
+                  <xsd:maxLength value="10" />
+              </xsd:restriction>
+          </xsd:simpleType>
+      </xsd:element> -->
+      <xsd:element name="numero" type="xsd:int" />
+      <xsd:element name="bairro" type="xsd:string" />
+      <xsd:element name="cidade" type="xsd:string" />
+      <xsd:element name="cep" type="xsd:string" />
+      <xsd:element name="estado" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

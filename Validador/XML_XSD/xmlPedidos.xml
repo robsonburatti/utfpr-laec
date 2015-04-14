@@ -1,0 +1,18 @@
+<pedido numero="1001">
+	<cliente>
+		<razao_social>JOAQUIM</razao_social>
+		<cnpj>00.000.000/0001-00</cnpj>
+	</cliente>
+	<itens_pedido>
+		<item>
+			<produto>caneta azul</produto>
+			<quantidade>100</quantidade>
+			<preco_unit>2</preco_unit>
+		</item>
+		<item>
+			<produto>caneta preta</produto>
+			<quantidade>200</quantidade>
+			<preco_unit>3</preco_unit>
+		</item>
+	</itens_pedido>
+</pedido>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dados>
+    <venda id="1">
+        <cliente id="1">
+            <nome>José Rodolfo Algeri</nome>
+            <telefone>99379900</telefone>
+            <cpf>04942953928</cpf>
+            <endereco>Rua Wenceslau Braz</endereco>
+            <cidade>Dois Vizinhos</cidade>
+            <estado>PR</estado>
+        </cliente>
+        <lista-produtos>
+            <produto id="1">
+                <nome_produto>Furadeira Bosch</nome_produto>
+                <descricao_produto>Furedeira de impacto 110V</descricao_produto>
+                <codbar>12345678</codbar>
+                <quantidade>5</quantidade>
+                <valor_unitario>220.00</valor_unitario>
+            </produto>
+            <produto id="2">
+                <nome_produto>Cimento Votorantin</nome_produto>
+                <descricao_produto>Saco de Cimento 50kg</descricao_produto>
+                <codbar>12345678</codbar>
+                <quantidade>10</quantidade>
+                <valor_unitario>25</valor_unitario>
+            </produto>
+        </lista-produtos>
+        <formas_pagamento>
+            <tipo>CARTAO</tipo>
+            <valor>470.00</valor>
+        </formas_pagamento>
+    </venda>
+    <venda id="2">
+        <cliente id="1">
+            <nome>José Rodolfo Algeri</nome>
+            <telefone>99379900</telefone>
+            <cpf>04942953928</cpf>
+            <endereco>Rua Wenceslau Braz</endereco>
+            <cidade>Dois Vizinhos</cidade>
+            <estado>PR</estado>
+        </cliente>
+        <lista-produtos>
+            <produto id="1">
+                <nome_produto>Furadeira Bosch</nome_produto>
+                <descricao_produto>Furedeira de impacto 110V</descricao_produto>
+                <codbar>12345678</codbar>
+                <quantidade>5</quantidade>
+                <valor_unitario>220.00</valor_unitario>
+            </produto>
+        </lista-produtos>
+        <formas_pagamento>
+            <tipo>DINHEIRO</tipo>
+            <valor>220.00</valor>
+        </formas_pagamento>
+    </venda>
+    <venda id="3">
+        <cliente id="1">
+            <nome>José Rodolfo Algeri</nome>
+            <telefone>99379900</telefone>
+            <cpf>04942953928</cpf>
+            <endereco>Rua Wenceslau Braz</endereco>
+            <cidade>Dois Vizinhos</cidade>
+            <estado>PR</estado>
+        </cliente>
+        <lista-produtos>
+            <produto id="1">
+                <nome_produto>Furadeira Bosch</nome_produto>
+                <descricao_produto>Furedeira de impacto 110V</descricao_produto>
+                <codbar>12345678</codbar>
+                <quantidade>5</quantidade>
+                <valor_unitario>220.00</valor_unitario>
+            </produto>
+        </lista-produtos>
+        <formas_pagamento>
+            <tipo>DINHEIRO</tipo>
+            <valor>220.00</valor>
+        </formas_pagamento>
+    </venda>
+    <venda id="4">
+        <cliente id="1">
+            <nome>José Rodolfo Algeri</nome>
+            <telefone>99379900</telefone>
+            <cpf>04942953928</cpf>
+            <endereco>Rua Wenceslau Braz</endereco>
+            <cidade>Dois Vizinhos</cidade>
+            <estado>PR</estado>
+        </cliente>
+        <lista-produtos>
+            <produto id="1">
+                <nome_produto>Furadeira Bosch</nome_produto>
+                <descricao_produto>Furedeira de impacto 110V</descricao_produto>
+                <codbar>12345678</codbar>
+                <quantidade>5</quantidade>
+                <valor_unitario>220.00</valor_unitario>
+            </produto>
+        </lista-produtos>
+        <formas_pagamento>
+            <tipo>DINHEIRO</tipo>
+            <valor>220.00</valor>
+        </formas_pagamento>
+    </venda>
+    <venda id="5">
+        <cliente id="1">
+            <nome>José Rodolfo Algeri</nome>
+            <telefone>99379900</telefone>
+            <cpf>04942953928</cpf>
+            <endereco>Rua Wenceslau Braz</endereco>
+            <cidade>Dois Vizinhos</cidade>
+            <estado>PR</estado>
+        </cliente>
+        <lista-produtos>
+            <produto id="1">
+                <nome_produto>Furadeira Bosch</nome_produto>
+                <descricao_produto>Furedeira de impacto 110V</descricao_produto>
+                <codbar>12345678</codbar>
+                <quantidade>5</quantidade>
+                <valor_unitario>220.00</valor_unitario>
+            </produto>
+        </lista-produtos>
+        <formas_pagamento>
+            <tipo>DINHEIRO</tipo>
+            <valor>220.00</valor>
+        </formas_pagamento>
+    </venda>
+</dados>

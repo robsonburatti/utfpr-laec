@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+    <dados_pessoais>
+        <nome>Robson Buratti Rodrigues</nome>
+        <endereco>
+            <rua>Sete de Setembro</rua>
+            <numero>167</numero>
+            <bairro>Centro</bairro>
+            <cidade>Dois Vizinhos</cidade>
+            <cep>85660-000</cep>
+            <estado>PR</estado>
+        </endereco>
+        <telefone>
+            <residencial>(46) 3536-0000</residencial>
+            <comercial>(46) 3536-0000</comercial>
+            <celular>(46) 9974-9999</celular>
+        </telefone>
+        <contato>
+            <email>robsonburatti@gmail.com</email>
+            <facebook>www.facebook.com/notfound</facebook>
+            <skype>robsonburatti13</skype>
+        </contato>
+    </dados_pessoais>
+    <dados_pessoais>
+        <nome>Jose Rodolfo Algeri</nome>
+        <endereco>
+            <rua>Wenceslau Braz</rua>
+            <numero>167</numero>
+            <bairro>Centro</bairro>
+            <cidade>Dois Vizinhos</cidade>
+            <cep>85660-000</cep>
+            <estado>PR</estado>
+        </endereco>
+        <telefone>
+            <residencial>(46) 3536-8500</residencial>
+            <comercial>(46) 3536-8500</comercial>
+            <celular>(46) 9937-9900</celular>
+        </telefone>
+        <contato>
+            <email>josealgeri@gmail.com</email>
+            <facebook>www.facebook.com/josealgeri</facebook>
+            <skype>josealgericiss</skype>
+        </contato>
+    </dados_pessoais>
+</lista>

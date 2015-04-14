@@ -1,0 +1,178 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dados">
+    <xs:complexType>
+        <xs:sequence>
+        <!-- Validação Venda -->
+        <xs:element name="venda" maxOccurs="1000">
+            <xs:complexType>
+                    <xs:sequence>
+            <!-- Validação Cliente -->
+            <xs:element name="cliente">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nome" minOccurs="1">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:maxLength value="30"/>
+                                    <xs:minLength value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="telefone" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:whiteSpace value="preserve"/>
+                                    <xs:pattern value="[0-9]{8}"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="cpf" minOccurs="1" >
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:whiteSpace value="preserve"/>
+                                    <xs:maxLength value="11"/>
+                                    <xs:pattern value="[0-9]{11}"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="endereco" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:maxLength value="100"/>
+                                    <xs:minLength value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="cidade" minOccurs="1">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:maxLength value="50"/>
+                                    <xs:minLength value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="estado" minOccurs="1">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="AC"/>
+                                    <xs:enumeration value="AL"/>
+                                    <xs:enumeration value="AM"/>
+                                    <xs:enumeration value="AP"/>
+                                    <xs:enumeration value="BA"/>
+                                    <xs:enumeration value="CE"/>
+                                    <xs:enumeration value="DF"/>
+                                    <xs:enumeration value="ES"/>
+                                    <xs:enumeration value="GO"/>
+                                    <xs:enumeration value="MA"/>
+                                    <xs:enumeration value="MG"/>
+                                    <xs:enumeration value="MS"/>
+                                    <xs:enumeration value="MT"/>
+                                    <xs:enumeration value="PA"/>
+                                    <xs:enumeration value="PB"/>
+                                    <xs:enumeration value="PE"/>
+                                    <xs:enumeration value="PI"/>
+                                    <xs:enumeration value="PR"/>
+                                    <xs:enumeration value="RJ"/>
+                                    <xs:enumeration value="RN"/>
+                                    <xs:enumeration value="RO"/>
+                                    <xs:enumeration value="RR"/>
+                                    <xs:enumeration value="RS"/>
+                                    <xs:enumeration value="SC"/>
+                                    <xs:enumeration value="SE"/>
+                                    <xs:enumeration value="SP"/>
+                                    <xs:enumeration value="TO"/>
+                                    <xs:enumeration value="EX"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute type="xs:byte" name="id" use="required"/>
+                </xs:complexType>
+                <!-- Validação Lista Protudos-->
+            </xs:element>
+            <xs:element name="lista-produtos" minOccurs="1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="produto" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome_produto" minOccurs="1">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:maxLength value="30"/>
+                                                <xs:minLength value="1"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descricao_produto" minOccurs="0" >
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:maxLength value="100"/>
+                                                <xs:minLength value="1"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="codbar" minOccurs="1" >
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:whiteSpace value="preserve"/>
+                                                <xs:pattern value="[0-9]{8}"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="quantidade" minOccurs="1" >
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:whiteSpace value="preserve"/>
+                                                <xs:pattern value="[1-9]{1}[0-9]{0,5}(\.[0-9]{3})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="valor_unitario">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:whiteSpace value="preserve"/>
+                                                <xs:pattern value="[0-9]{0,10}(\.[0-9]{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute type="xs:byte" name="id" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="formas_pagamento">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="tipo">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:whiteSpace value="preserve"/>
+                                    <xs:enumeration value="DINHEIRO"/>
+                                    <xs:enumeration value="CHEQUE"/>
+                                    <xs:enumeration value="CARTAO"/>
+                                    <xs:enumeration value="OUTROS"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="valor">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:whiteSpace value="preserve"/>
+                                    <xs:pattern value="[0-9]{0,10}(\.[0-9]{2})?"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="required"/>
+    </xs:complexType>
+        </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>

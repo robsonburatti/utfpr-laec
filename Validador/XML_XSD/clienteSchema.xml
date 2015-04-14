@@ -1,0 +1,6 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:cliente>
+		<xs:nome>JOSÉ</xs:nome>
+		<xs:cpf>000.000.000-00</xs:cpf>
+	</xs:cliente>
+</xs:schema>

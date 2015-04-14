@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema“ elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:itens_pedido>
+		<xs:item>
+			<xs:produto>caneta azul</xs:produto>
+			<xs:quantidade>100</xs:quantidade>
+			<xs:preco_unit>2</xs:preco_unit>
+		</xs:item>
+		<xs:item>
+			<xs:produto>caneta preta</xs:produto>
+			<xs:quantidade>200</xs:quantidade>
+			<xs:preco_unit>3</xs:preco_unit>
+		</xs:item>
+	</xs:itens_pedido>
+</<xs:schema>

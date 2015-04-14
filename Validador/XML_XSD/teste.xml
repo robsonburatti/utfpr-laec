@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-16"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" >
+	<xsd:include schemaLocation="regrasPedidos.xsd"/>
+
+	<xsd:element name="pedido" type="pedidoValidateType" />
+	
+	<xsd:complexType name="pedidoValidateType">
+    	<xsd:sequence>
+      		<xsd:element name="cliente" type="clienteValidateType" ma/>
+     		<xsd:element name="itens_pedido" type="itens_pedidoType" />
+    	</xsd:sequence>
+    	<xsd:attribute name="numero" type="xsd:int" />
+  	</xsd:complexType>
+
+  	<xsd:complexType name="clienteValidateType">
+		<xsd:sequence>
+			
+			<xsd:element name="razao_social" >
+				<xsd:complexType>
+					<xsd:restriction base="xsd:string">
+			          	<xsd:minLength value="3" />
+			          	<xsd:maxLength value="8" />
+			      	</xsd:restriction>
+				</xsd:complexType>
+			</xsd:element>
+
+
+			<xsd:element name="cnpj" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+</xsd:schema>

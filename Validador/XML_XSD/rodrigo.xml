@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dados_venda>
+	<venda id ="1">
+		<cliente id="1">
+			<nome>Rodrigorr</nome>
+			<telefone></telefone>
+			<cpf></cpf>
+			<endereco></endereco>
+			<cidade></cidade>
+			<estado></estado>
+		</cliente>
+		<lista_produto>
+			<produto id="1">
+				<nome>Celular</nome>
+				<descricao></descricao>
+				<codigo_barra></codigo_barra>
+				<quantidade></quantidade>
+				<valor_unitario></valor_unitario>
+			</produto>
+		</lista_produto>
+		<lista_pagamento>
+			<forma_pagamento>
+				<tipo>Dinheiro</tipo>
+				<valor>10</valor>
+			</forma_pagamento>
+		</lista_pagamento>
+	</venda>
+</dados_venda>

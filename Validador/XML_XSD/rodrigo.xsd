@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0">
+<xsd:include schemaLocation="regras_Restricoes.xsd" />
+
+<!--O tipo de Dados_Venda vai ser 'dados_vendaType'-->
+<xsd:element name="dados_venda" type="dados_vendaType" />
+
+<!--Montando o tipo 'dados_vendaType'. Ele vai conter um atributo chamado venda com tipo 'VendaType'-->
+<xsd:complexType name="dados_vendaType">
+	<xsd:sequence>
+		<xsd:element name="venda" type="vendaType" maxOccurs="1000" />
+	</xsd:sequence>	
+</xsd:complexType>
+
+<!--Montando o VendaType, ele vai conter os elementos: cliente e o tipo clienteType, lista_produto e o tipo lista_produtoType, 
+																					lista_pagamentoe o tipo lista_pagamento-->
+<xsd:complexType name="vendaType">
+	<xsd:sequence>
+		<xsd:element name="cliente" type="clienteType" />
+		<xsd:element name="lista_produto" type="lista_produtoType" />
+		<xsd:element name="lista_pagamento" type="lista_pagamentoType" />
+	</xsd:sequence>
+	<xsd:attribute name="id" type="xsd:integer" />
+</xsd:complexType>
+
+<!--Montando o clienteType-->
+<xsd:complexType name="clienteType">
+	<xsd:sequence>
+		<xsd:element name="nome" type="minhaRegra" />
+		<xsd:element name="telefone" type="xsd:string" />
+		<xsd:element name="cpf" type="xsd:string" />
+		<xsd:element name="endereco" type="xsd:string" />
+		<xsd:element name="cidade" type="xsd:string" />
+		<xsd:element name="estado" type="xsd:string" />
+	</xsd:sequence>
+	<xsd:attribute name="id" type="xsd:integer" />
+</xsd:complexType>
+
+<xsd:complexType name="lista_produtoType">
+	<xsd:sequence>
+		<xsd:element name="produto" type="produtoType" />
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="produtoType">	
+	<xsd:sequence>
+		<xsd:element name="nome" type="xsd:string" />
+		<xsd:element name="descricao" type="xsd:string" />
+		<xsd:element name="codigo_barra" type="xsd:string" />
+		<xsd:element name="quantidade" type="xsd:string" />
+		<xsd:element name="valor_unitario" type="xsd:string" />
+	</xsd:sequence>
+	<xsd:attribute name="id" type="xsd:integer" />
+</xsd:complexType>
+
+<xsd:complexType name="lista_pagamentoType">
+	<xsd:sequence>
+		<xsd:element name="forma_pagamento" type="forma_pagamentoType" />
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="forma_pagamentoType">
+	<xsd:sequence>
+		<xsd:element name="tipo" type="xsd:string" />
+		<xsd:element name="valor" type="xsd:string" />
+	</xsd:sequence>
+</xsd:complexType>
+
+</xsd:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:cliente>
+		<xs:razao_social>JOAQUIM S.A.</xs:razao_social>
+		<xs:cnpj>00.000.000/0001-00</xs:cnpj>
+	</xs:cliente>
+</xs:schema>

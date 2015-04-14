@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41141217488862000108550010002315561056964145" versao="3.10">
+<ide>
+<cUF>41</cUF>
+<cNF>05696414</cNF>
+<natOp>VENDA DE MERCADORIAS</natOp>
+<indPag>2</indPag>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>231556</nNF>
+<dhEmi>2014-12-30T18:40:48-02:00</dhEmi>
+<dhSaiEnt>2014-12-30T18:40:48-02:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>2</idDest>
+<cMunFG>4107207</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>5</cDV>
+<tpAmb>2</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>0</indPres>
+<procEmi>0</procEmi>
+<verProc>14.0.2.21</verProc>
+</ide>
+<emit>
+<CNPJ>17488862000108</CNPJ>
+<xNome>FERPAM COM DE FERRAMENTAS PARAFUSOS E MAQUINAS LTDA</xNome>
+<xFant>FERPAM - LOJA 01</xFant>
+<enderEmit>
+<xLgr>QD 101 SUL AV JOAQUIM TEOT SEGURAD</xLgr>
+<nro>7</nro>
+<xCpl>AV JOAQUIM TEOTONIO SEGURADO</xCpl>
+<xBairro>PLANO DIRETOR SUL</xBairro>
+<cMun>4107207</cMun>
+<xMun>DOIS VIZINHOS</xMun>
+<UF>PR</UF>
+<CEP>77015002</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>6321113600</fone>
+</enderEmit>
+<IE>9061925004</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>01040887000104</CNPJ>
+<xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+<enderDest>
+<xLgr>101 SUL AV TEOTONIO SEGURADO</xLgr>
+<nro>7</nro>
+<xBairro>PLANO DIRETOR SUL</xBairro>
+<cMun>1721000</cMun>
+<xMun>PALMAS</xMun>
+<UF>TO</UF>
+<CEP>77015002</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>290559375</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>39199</cProd>
+<cEAN></cEAN>
+<xProd>BICO ABASTECIMENTO 34 AUTOM BOZZA 1316 AZUL</xProd>
+<NCM>84139190</NCM>
+<CFOP>5102</CFOP>
+<uCom>UN</uCom>
+<qCom>1.0000</qCom>
+<vUnCom>50.000000</vUnCom>
+<vProd>50.00</vProd>
+<cEANTrib></cEANTrib>
+<uTrib>UN</uTrib>
+<qTrib>1.0000</qTrib>
+<vUnTrib>50.000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<ICMS>
+<ICMS00>
+<orig>2</orig>
+<CST>00</CST>
+<modBC>3</modBC>
+<vBC>50.00</vBC>
+<pICMS>17.00</pICMS>
+<vICMS>8.50</vICMS>
+</ICMS00>
+</ICMS>
+<PIS>
+<PISAliq>
+<CST>01</CST>
+<vBC>50.00</vBC>
+<pPIS>0.65</pPIS>
+<vPIS>0.33</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>01</CST>
+<vBC>50.00</vBC>
+<pCOFINS>3.00</pCOFINS>
+<vCOFINS>1.50</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+</det>
+<total>
+<ICMSTot>
+<vBC>50.00</vBC>
+<vICMS>8.50</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vProd>50.00</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vPIS>0.33</vPIS>
+<vCOFINS>1.50</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>50.00</vNF>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>1</modFrete>
+<transporta></transporta>
+</transp>
+<infAdic>
+<infCpl>- PEDIDO VENDA: 191216 - FORMA PAG: PF DINHEIRO -</infCpl>
+</infAdic>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#NFe41141217488862000108550010002315561056964145">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>xsvgLj+tl+fgG0srbX7TrEyaKMg=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>QYATJ9igEhpnyVwVVh27/yu8rMl2mX/pwrQX4i3GBUPttjjLzBZV64k9lILCvSvvwYvCFs2GY2jUoXJsFznD+Zf0KIjpWH0a6cHhf5OMQb8CLIcue1KqQSAQHEp2UlN5kQeMoL/OcBTTwLEnwT7RplcSDrD2EQRWGlHQ/Z1wMAfUQ6/9KMkGtKYHxNUqQhAxiKdljoBGlQlivLWgAtKCIiwfOgc+P+37dykQVEYTi27BOuG4Ycl//GjusjfIrsINk6jVs0yYJlhTx6OenCzZL6wuWs32De0GSutLcQS0U+5j4FwVfzT+Z4sJEI8Fn33fxcoOSHwmBx8osLUhoe+Zhw==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIIYTCCBkmgAwIBAgIQWM/kNzB04bAW/TU71LmrITANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc0MB4XDTE0MDUxNzAwMDAwMFoXDTE1MDUxNjIzNTk1OVowggEEMQswCQYDVQQGEwJCUjETMBEGA1UEChQKSUNQLUJyYXNpbDELMAkGA1UECBMCUFIxFjAUBgNVBAcUDURPSVMgVklaSU5IT1MxNjA0BgNVBAsULVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQGA1UECxQNUkZCIGUtQ05QSiBBMTEiMCAGA1UECxQZQXV0ZW50aWNhZG8gcG9yIEFSIEZBQ0lBUDFHMEUGA1UEAxM+SUxVTUlOQVIgTUFURVJJQUlTIEUgU0VSVklDT1MgRUxFVFJJQ09TIExUREEgTUU6MTc0ODg4NjIwMDAxMDgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCx0+ZeRIigrE1Oy3ycwVsAAhtqbCYJV4IOtO23jAsKbw6tQklTkDuwJcT/HbXPZ+bIm0rcMntNy+5AxMOG0lomKsaZHmGaK/L+cNJIZjV+/on1L4YGgbXDYsjn1bKLL+T8vvMyP+IfX9m9i04rQuGP3BZ4uPHkOLf45jBNtnEtXWfY/GMn2sm5DxjxDqgUfPT7SX0ql217nwE/Cq/YVTjQRxIXezP30awnIRFaOba3ML/m7ix8IjQm7JPp1DgmA+URsEg+26uxi0GNqx2+5hpqsrTHUhRKe1L/0oydIGT1VbkELUxy2xyYBktr+yzK3o9wDfUjMIdhw6spsD7vXHfdAgMBAAGjggNXMIIDUzCBvAYDVR0RBIG0MIGxoDgGBWBMAQMEoC8ELTE2MDUxOTgyMDM3ODc2OTE5NzkxMjY4Mzg4NTUwNjAwMDAwMDAwMDAwMDAwMKAhBgVgTAEDAqAYBBZBTkRFUlNPTiBMVUlaIENBTlRFTExJoBkGBWBMAQMDoBAEDjE3NDg4ODYyMDAwMTA4oBcGBWBMAQMHoA4EDDAwMDAwMDAwMDAwMIEeaWx1bWluYXJfbWF0ZXJpYWlzQGhvdG1haWwuY29tMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAULpHq1m3lslmC3DiFKXY0FlY80D4wDgYDVR0PAQH/BAQDAgXgMH8GA1UdIAR4MHYwdAYGYEwBAgEMMGowaAYIKwYBBQUHAgEWXGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9SRkIvRFBDX0FDX0NlcnRpc2lnbl9SRkIucGRmMIIBFgYDVR0fBIIBDTCCAQkwV6BVoFOGUWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduUkZCRzQvTGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0cDovL2ljcC1icmFzaWwub3V0cmFsY3IuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc0L0xhdGVzdENSTC5jcmwwVqBUoFKGUGh0dHA6Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwuZ292LmJyL2xjci9DZXJ0aXNpZ24vQUNDZXJ0aXNpZ25SRkJHNC9MYXRlc3RDUkwuY3JsMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBmwYIKwYBBQUHAQEEgY4wgYswXwYIKwYBBQUHMAKGU2h0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9SRkJfRzQucDdjMCgGCCsGAQUFBzABhhxodHRwOi8vb2NzcC5jZXJ0aXNpZ24uY29tLmJyMA0GCSqGSIb3DQEBCwUAA4ICAQBB5/NlRl0nsMgeKlzgrEomIm//nt2kEetPmwsvoVaNP9lfXAV/kEH/oYJ2eb7PZ6Sqcm3OkIKDbs/1W39i/hhignPCCfcqT6V7brBcOORWGCu15RUoXLClzk9+rw3V07oljsLqybqqTRAGiy/1DowjBt2gg1LnPKw14VGoIV8HPAWImsD+4bYWD7ex8ClI6/AdcWIfRpBTiqUtULxzAxMH67wSMIE0EmLbMD27eul7fEJF9OBScGFS/3pbAkitn4W5RwUz66HZEAxDcW/hz1qBZO9O1hQB98fUYSJprjxWkVnMEj0n9dgaAwRhr+vH54xFdA3ajUmhsmHwEGp5zKvlNphWhsd8fxhhPRNfaDlLVmJb0kq4AuZPRboPNkUUUYLtHImf9el0Myr9MOkgktuEmYvkZoxQ/P6eQEjT+aoHwDTOhtoQsYUhV+hlhC/KwD7YxXn7HDhHIWHeFcZuDA1IgSUannTHE5JAC25BtpH64RfUsT9r6puRRfz5HVWklmCG3Due9AlI+DxiC4ix9rLSEIassb7q04bXU5WZA7hEqCYdToVPkNM/mmyipCP1QSkrwoUUApIKDjhb+cmASe+Tjzpwewtcbgt3KDZzrwqglqQ+MLj4gsVm7E78NjlLVkANF9LV9OsNC9XcqQju6OFhtaOvb+VxgRnfw+VPY85ebg==</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>

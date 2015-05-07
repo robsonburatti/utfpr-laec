@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Formulários</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- <meta http-equiv="refresh" content="20; url=http://www.info.abril.com.br/" /> -->
+        <style type="text/css" >
+            div{
+                font-size: 30pt;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Formulários</div>
+        <form action="" method="post">
+            
+            <fieldset>
+                <legend>Teste</legend>
+                
+                <label>Nome:</label>
+                <input type="text" name="nome" size="50" />
+                <br/>
+                <label>Telefone:</label>
+                <input type="text" name="telefone" size="50" />
+                <br/>
+                <label>E-mail:</label>
+                <input type="email" name="email" size="50" />
+                <br/>
+                <label>Sexo</label>
+                <input type="radio" name="sexo" value="m" />Masculino
+                <input type="radio" name="sexo" value="f" />Feminino
+                <br/>
+                <input type="checkbox" name="estudo" value="estudo" />
+                <label>Estudo depois da aula</label>
+                <br/>
+                <label>Senha</label>
+                <input type="password" maxlength="3" />
+                <br/>
+                <label>Estado</label>
+                <select name="estado">
+                    <option>Selecion um estado</option>
+                    <option>Paraná</option>
+                    <option>Santa Catarina</option>
+                    <option>Acre</option>
+                </select>
+                <br/>
+                <label>Selecione um arquivo para envio</label>
+                <input type="file" name="arquivo" />
+                <br/>
+                <label>Dados ocultos</label>
+                <input type="hidden" name="oculto" />
+                <br/>
+                <br/>
+                <input type="submit" value="Enviar" />
+                
+                <input type="reset" value="Limpar" />
+                
+            </fieldset>
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,128 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: dodgerblue;
+    padding: 20px;
+}
+
+#logo {
+    padding-left:1px;
+    position: absolute;
+}
+
+#escrita-logo {
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#topo {
+    width:760px;
+    height:100px;
+    text-align:center;
+    padding-top:1px;
+}
+
+nav {
+    background: #d6f9ff;
+}
+
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #1d3156;
+    background-color: #6d98e8;
+}
+
+.corpo-texto {
+    width: 60%;
+    background-color: #c7e3f9;
+}
+
+.menu-lateral {
+    margin-left: 2%;
+    width: 37%;
+    padding-top: 20px;
+    padding-left: 1%
+}
+
+.menu-lateral, .corpo-texto {
+    float: left;
+}
+
+.conteudo {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.conteudo h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    font-family:sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-lateral ul {
+    list-style-type: none;
+}
+
+.menu-lateral ul li a {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.menu-lateral ul li a:hover { /* estilo da fonte quando selecionado */
+    color: #2657b2;
+    background-color: #3ef6f8;
+}
+
+.corpo { /* estilo do cor de fundo menu lateral */
+    background-color: #e1f0f1;
+    overflow: hidden;
+}
+
+.rodape {
+    background-color: #adc3ed;
+    overflow: hidden;
+}
+
+.rodape-lista {
+    float: left;
+    margin: 20px;
+}

@@ -1,0 +1,68 @@
+/*
+body {
+    background-image: url("img/logo.jpg");
+    background-repeat: repeat-y;
+    background-position: 100px 100px;
+}
+
+link{
+    color:#3ef6f8;
+}
+a:link{
+    color:#FF0000;
+}
+a:visited{
+    color:#006600;
+}
+a:active {
+    color:#ddd;
+}
+a:link, a:visited, a:active {
+    text-decoration: underline;
+}
+
+a.teste {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: yellow;
+}
+
+div {
+    background-color: red;
+    margin: 20px 40px 80px 5px;
+}
+*/
+
+div.superior {
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-color: black;
+    border-top-style: groove;
+    border-top-width: 3px;
+}
+
+div.direita {
+    background-color: blue;
+    position: fixed;
+    width: 30%;
+}
+
+div.esquerda {
+    background-color: green;
+    float: left;
+    width: 70%;
+}
+
+div.inferior {
+    background-color: cyan;
+}
+
+
+
+
+
+
+
+

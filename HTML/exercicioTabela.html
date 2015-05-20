@@ -9,27 +9,39 @@ and open the template in the editor.
         <title>Exercício Tabelas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/exercicioTabela.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1>Produtos</h1>
-        <table>
-            <thead>
+        <div id="teste">
+            <h1>teste</h1>
+        </div>
+
+        <div class="divtabela">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nome</td>
+                        <td>Quantidade</td>
+                        <td>Valor</td>
+                    </tr>
+                </thead>
                 <tr>
-                    <td>Nome</td>
-                    <td>Quantidade</td>
-                    <td>Valor</td>
+                    <td>Caneta</td>
+                    <td>48</td>
+                    <td>R$ 0,25</td>
                 </tr>
-            </thead>
-            <tr>
-                <td>Caneta</td>
-                <td>48</td>
-                <td>R$ 0,25</td>
-            </tr>
-            <tr>
-                <td>Lápis</td>
-                <td>31</td>
-                <td>R$ 0,18</td>
-            </tr>
-        </table>
+                <tr>
+                    <td>Lápis</td>
+                    <td>31</td>
+                    <td>R$ 0,18</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Rodapé</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
     </body>
 </html>

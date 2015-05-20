@@ -1,0 +1,39 @@
+h1 {
+    color: #d6f9ff;
+    font-size: 30pt;
+    font-family: fantasy;
+}
+
+#teste h1 {
+    color: #5fea21;
+    font-size: 20pt;
+}
+
+table tr td {
+    color: #d6f9ff;
+    background: green;
+}
+
+table {
+    border-color: red;
+    border-style: dotted;
+    width: 100%;
+}
+
+table thead tr td {
+    font-size: 20pt;
+    background-color: #2657b2;
+}
+
+table tfoot tr td {
+    font-size: 10pt;
+    background-color: #e1f0f1;
+    color: #2657b2;
+    text-align: center;
+}
+
+.divtabela {
+    background-color: burlywood;
+    margin-left: 10%;
+    margin-right: 10%
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Muda Página JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="text/javascript">
+            // Isto é um comentário no código
+            alert("Seja bem vindo ao JavaScript!") // Aqui é outro comentário
+            confirm("Deseja continuar aprendendo JavaScript?")
+            var nome = prompt("Então informe seu nome para proceguir:", ["Seu nome aqui"])
+            window.document.write("<h1>Então seu nome é " + nome + "</h1><br/><h2>Prevejo que você vai compreender muita coisa de JavaScript!</h2><br/>")
+            document.write("<p>Aqui estou escrevendo no HTML usando JavaScript.</p><br/>")
+            
+            /* Este é outro tipo de comentário 
+             * que pode se extender por várias linhas */
+            
+            <!-- Outra forma de comentário de código -->
+            
+            /**
+             * Aqui é um comentário de bloco sobre a função ou método a seguir semelhante ao JavaDoc da linguagem de programação Java
+             * @returns {undefined}
+             */
+            function personalizacao() {
+                var textoPersonalizado = document.getElementById("textoComum");
+                textoPersonalizado.style.fontSize = "25px";
+                textoPersonalizado.style.color = "red";
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div>Aqui estou escrevendo no HTML sem JavaScript.</div>
+        <br/>
+        <div>Clique no botão e descubra a mágica que acontece usando JavaScript.</div>
+        <div><button type="button"
+                     onclick="document.getElementByName('texto').innerHTML = 'Este texto foi adicionado em um elemento <code>p</code> usando JavaScript.'">
+                     Clique e veja a mágica acontecer</button>
+        </div>
+        <div><p id="texto"></p></div>
+        <br/>
+        <div>Clique no botão e descubra que horas é agora, essa é outra mágica que acontece usando JavaScript.</div>
+        <div><button type="button"
+                     onclick="document.getElementById('hora').innerHTML = Date()">
+                     Clique e descubra as horas</button>
+        </div>
+        <div><p id="hora"></p></div>
+        <br/>
+        <div><p id="textoComum">Clique no botão e descubra a mudança que é possivel fazer usando JavaScript.</p></div>
+        <div><button type="button"
+                     onclick="personalizacao()">
+                     Clique veja e veja a mudança</button>
+        </div>
+    </body>
+</html>

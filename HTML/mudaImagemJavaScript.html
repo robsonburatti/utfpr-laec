@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Muda Imagem JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <h1>JavaScript pode mudar Imagens</h1>
+
+        <img id="idMinhaImagem" onclick="mudaImagem()" src="img/pic_bulboff.gif" width="100" height="180">
+
+        <p>Clique na lâmpada para ligar/desligar a luz.</p>
+
+        <script>
+            function mudaImagem() {
+                var image = document.getElementById('idMinhaImagem');
+                
+                if (image.src.match("bulbon")) {
+                    image.src = "img/pic_bulboff.gif";
+                } else {
+                    image.src = "img/pic_bulbon.gif";
+                }
+            }
+        </script>
+
+    </body>
+</html>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Formulário JavaScript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="css/estiloFormulario.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/formulario.js"></script>
+    </head>
+    <body>
+        <h1>Formulário Contato</h1>
+        <form action="index.html" onsubmit="return validarCampos()" method="post" >
+            <fieldset>
+                <legend><label>Dados Pessoais</label></legend>
+
+                <div class="esquerda">
+                    <label>Nome</label>
+                </div>
+
+                <div class="direita">
+                    <input id="nome" type="text" name="nome" size="30" />
+                </div>
+
+                <div class="esquerda">
+                    <label>E-mail</label>
+                </div>
+
+                <div class="direita">
+                    <input id="email" type="email" name="email" size="30" />
+                </div>
+
+                <div class="esquerda">
+                    <label>Sexo</label>
+                </div>
+
+                <div class="direita">
+                    <input id="masculino" type="radio" name="sexo" value="m" /><label>Masculino</label>
+                    <input id="feminino" type="radio" name="sexo" value="f" /><label>Feminino</label>
+                </div>
+            </fieldset>
+
+            <div class="esquerda">
+                <input type="submit" value="Enviar" />
+            </div>
+
+            <div class="direita">
+                <input type="reset" value="Limpar" />
+            </div>
+
+        </form>
+        <br />
+        <div id="resultado"></div>
+    </body>
+</html>
